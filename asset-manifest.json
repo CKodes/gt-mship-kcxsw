@@ -1,16 +1,9 @@
 {
   "files": {
-    "main.css": "/gt-mship-kcxsw/static/css/main.073c9b0a.css",
-    "main.js": "/gt-mship-kcxsw/static/js/main.1dd341e5.js",
-    "static/js/787.60360d51.chunk.js": "/gt-mship-kcxsw/static/js/787.60360d51.chunk.js",
-    "static/media/logo.svg": "/gt-mship-kcxsw/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/gt-mship-kcxsw/index.html",
-    "main.073c9b0a.css.map": "/gt-mship-kcxsw/static/css/main.073c9b0a.css.map",
-    "main.1dd341e5.js.map": "/gt-mship-kcxsw/static/js/main.1dd341e5.js.map",
-    "787.60360d51.chunk.js.map": "/gt-mship-kcxsw/static/js/787.60360d51.chunk.js.map"
+    "main.js": "/gt-mship-kcxsw/static/js/main.31d6cfe0.js",
+    "index.html": "/gt-mship-kcxsw/index.html"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.1dd341e5.js"
+    "static/js/main.31d6cfe0.js"
   ]
 }
