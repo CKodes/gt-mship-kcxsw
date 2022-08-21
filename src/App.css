@@ -3,3 +3,9 @@ html {
   height: 100%;
   margin: 0;
 }
+
+.main-style {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+}
