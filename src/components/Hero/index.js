@@ -3,7 +3,7 @@ import image from '../../assets/avatar.png';
 
 function Hero() {
   return (
-    <div>
+    <>
       <div className='hero-holder'>
         <div className='hero-title'>
           <h1>Start where you are.</h1>
@@ -23,7 +23,7 @@ function Hero() {
           </h3>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
