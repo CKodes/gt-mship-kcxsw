@@ -4,13 +4,13 @@ import image from '../../assets/avatar.png';
 function Hero() {
   return (
     <>
-      <div className='hero-holder'>
+      <header className='hero-holder'>
         <div className='hero-title'>
           <h1>Start where you are.</h1>
           <h1>Use what you have.</h1>
           <h1>Do what you can.</h1>
         </div>
-      </div>
+      </header>
 
       <div className='main-style avatar-content'>
         <img src={image} alt='avatar' />
