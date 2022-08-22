@@ -12,7 +12,7 @@ function Hero() {
         </div>
       </header>
 
-      <div className='main-style avatar-content'>
+      <main className='main-style avatar-content'>
         <img src={image} alt='avatar' />
         <div>
           <h2>👋🏽 Hello! My name is Kim.</h2>
@@ -22,7 +22,7 @@ function Hero() {
             <strong>technology</strong>
           </h3>
         </div>
-      </div>
+      </main>
     </>
   );
 }
