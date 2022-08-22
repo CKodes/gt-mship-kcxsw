@@ -6,9 +6,11 @@ function Hero() {
     <>
       <header className='hero-holder'>
         <div className='hero-title'>
-          <h1>Start where you are.</h1>
-          <h1>Use what you have.</h1>
-          <h1>Do what you can.</h1>
+          <h1>
+            Start where you are.{'\n'}
+            Use what you have.{'\n'}
+            Do what you can.
+          </h1>
         </div>
       </header>
 
