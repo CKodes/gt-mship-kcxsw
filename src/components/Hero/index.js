@@ -5,7 +5,7 @@ function Hero() {
   return (
     <>
       <header className='hero-holder'>
-        <div className='hero-title'>
+        <div className='main-style hero-title'>
           <h1>
             Start where you are.{'\n'}
             Use what you have.{'\n'}
