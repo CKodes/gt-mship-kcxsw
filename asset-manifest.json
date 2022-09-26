@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gt-mship-kcxsw/static/css/main.d45e7652.css",
-    "main.js": "/gt-mship-kcxsw/static/js/main.5999236f.js",
+    "main.css": "/gt-mship-kcxsw/static/css/main.818842bc.css",
+    "main.js": "/gt-mship-kcxsw/static/js/main.6c99fa21.js",
     "static/media/avatar.png": "/gt-mship-kcxsw/static/media/avatar.708c3497082ddfcbf1f3.png",
     "static/media/hero-bg.JPG": "/gt-mship-kcxsw/static/media/hero-bg.b90bedded929692c2f75.JPG",
     "index.html": "/gt-mship-kcxsw/index.html",
-    "main.d45e7652.css.map": "/gt-mship-kcxsw/static/css/main.d45e7652.css.map",
-    "main.5999236f.js.map": "/gt-mship-kcxsw/static/js/main.5999236f.js.map"
+    "main.818842bc.css.map": "/gt-mship-kcxsw/static/css/main.818842bc.css.map",
+    "main.6c99fa21.js.map": "/gt-mship-kcxsw/static/js/main.6c99fa21.js.map"
   },
   "entrypoints": [
-    "static/css/main.d45e7652.css",
-    "static/js/main.5999236f.js"
+    "static/css/main.818842bc.css",
+    "static/js/main.6c99fa21.js"
   ]
 }
