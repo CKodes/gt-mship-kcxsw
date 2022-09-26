@@ -1,3 +1,8 @@
 nav {
-  background: pink;
+  display: flex;
+  padding: 0.5rem 3rem;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: space-between;
 }
