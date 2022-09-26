@@ -16,12 +16,28 @@ function Navbar() {
         <div className='align-center' style={{ paddingLeft: '1.5rem' }}>
           <img src={logoBlack} alt='logo' />
         </div>
-        <button
-          className='align-center nav-toggle'
-          style={{ paddingRight: '1.5rem' }}
-        >
-          <FaBars />
-        </button>
+        <div className='align-center' style={{ paddingRight: '1.5rem' }}>
+          <ul className='align-center links'>
+            <li>
+              <a href='https://www.google.com'>Home</a>
+            </li>
+            <li>
+              <a href='https://www.google.com'>About</a>
+            </li>
+            <li>
+              <a href='https://www.google.com'>Projects</a>
+            </li>
+            <li>
+              <a href='https://www.google.com'>Contact</a>
+            </li>
+          </ul>
+          <button
+            className='align-center nav-toggle'
+            style={{ paddingRight: '1.5rem' }}
+          >
+            <FaBars />
+          </button>
+        </div>
       </div>
     </nav>
   );
