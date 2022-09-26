@@ -1,4 +1,4 @@
-import './index.css';
+import './hero.css';
 import image from '../../assets/avatar.png';
 
 function Hero() {
