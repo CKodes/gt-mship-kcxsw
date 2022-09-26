@@ -1,10 +1,12 @@
 import './hero.css';
 import image from '../../assets/avatar.png';
+import Navbar from '../Navbar/navbar';
 
 function Hero() {
   return (
     <>
       <header className='hero-holder'>
+        <Navbar />
         <div className='main-style hero-title'>
           <h1>
             Start where you are.{'\n'}
