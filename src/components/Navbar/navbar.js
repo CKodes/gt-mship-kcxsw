@@ -16,9 +16,12 @@ function Navbar() {
         <div className='align-center' style={{ paddingLeft: '1.5rem' }}>
           <img src={logoBlack} alt='logo' />
         </div>
-        <div className='align-center' style={{ paddingRight: '1.5rem' }}>
+        <button
+          className='align-center nav-toggle'
+          style={{ paddingRight: '1.5rem' }}
+        >
           <FaBars />
-        </div>
+        </button>
       </div>
     </nav>
   );
