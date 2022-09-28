@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/gt-mship-kcxsw/static/css/main.20e919e1.css",
+    "main.css": "/gt-mship-kcxsw/static/css/main.ccf38add.css",
     "main.js": "/gt-mship-kcxsw/static/js/main.5cd35a2b.js",
     "static/media/avatar.png": "/gt-mship-kcxsw/static/media/avatar.708c3497082ddfcbf1f3.png",
     "static/media/hero-bg.JPG": "/gt-mship-kcxsw/static/media/hero-bg.b90bedded929692c2f75.JPG",
     "static/media/LogoBlack.svg": "/gt-mship-kcxsw/static/media/LogoBlack.726444f1a7eca50e0a366754ed97ec7f.svg",
     "index.html": "/gt-mship-kcxsw/index.html",
-    "main.20e919e1.css.map": "/gt-mship-kcxsw/static/css/main.20e919e1.css.map",
+    "main.ccf38add.css.map": "/gt-mship-kcxsw/static/css/main.ccf38add.css.map",
     "main.5cd35a2b.js.map": "/gt-mship-kcxsw/static/js/main.5cd35a2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.20e919e1.css",
+    "static/css/main.ccf38add.css",
     "static/js/main.5cd35a2b.js"
   ]
 }
