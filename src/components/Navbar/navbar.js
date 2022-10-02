@@ -2,6 +2,7 @@ import './navbar.css';
 import logoBlack from '../../assets/LogoBlack.svg';
 import { FaBars } from 'react-icons/fa';
 import NavbarMobile from '../NavbarMobile/navbarMobile';
+import { links } from './data';
 
 function Navbar() {
   return (
@@ -19,18 +20,14 @@ function Navbar() {
         </div>
         <div className='align-center padRight'>
           <ul className='align-center links'>
-            <li>
-              <a href='https://www.google.com'>Home</a>
-            </li>
-            <li>
-              <a href='https://www.google.com'>About</a>
-            </li>
-            <li>
-              <a href='https://www.google.com'>Projects</a>
-            </li>
-            <li>
-              <a href='https://www.google.com'>Contact</a>
-            </li>
+            {links.map((link) => {
+              const { id, url, text } = link;
+              return (
+                <li key={id}>
+                  <a href={url}>{text}</a>
+                </li>
+              );
+            })}
           </ul>
           <button className='align-center nav-toggle'>
             <FaBars />

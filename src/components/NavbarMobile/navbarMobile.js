@@ -1,24 +1,19 @@
 import './navbarMobile.css';
+import { links } from '../Navbar/data';
 
 function NavbarMobile() {
   return (
-    <div className='main-style'>
-      <div className='nav-mobile'>
-        <ul>
-          <li>
-            <a href='https://www.google.com'>Home</a>
-          </li>
-          <li>
-            <a href='https://www.google.com'>About</a>
-          </li>
-          <li>
-            <a href='https://www.google.com'>Projects</a>
-          </li>
-          <li>
-            <a href='https://www.google.com'>Contact</a>
-          </li>
-        </ul>
-      </div>
+    <div className='main-style nav-mobile'>
+      <ul>
+        {links.map((link) => {
+          const { id, url, text } = link;
+          return (
+            <li key={id}>
+              <a href={url}>{text}</a>
+            </li>
+          );
+        })}
+      </ul>
     </div>
   );
 }
