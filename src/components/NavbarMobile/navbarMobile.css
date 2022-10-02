@@ -1,5 +1,5 @@
 .nav-mobile {
-  background: coral;
+  /* background: coral; */
   /* display: none; */
 }
 
@@ -9,6 +9,7 @@
 
 .nav-mobile ul {
   padding-inline-start: 0;
+  margin: 0;
 }
 
 @media screen and (min-width: 800px) {
