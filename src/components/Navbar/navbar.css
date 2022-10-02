@@ -28,6 +28,14 @@ a:hover {
   color: var(--clr-blue);
 }
 
+.padLeft {
+  padding-left: 1.5rem;
+}
+
+.padRight {
+  padding-right: 1.5rem;
+}
+
 /* Navbar */
 
 nav {
@@ -67,5 +75,13 @@ li {
 @media screen and (max-width: 800px) {
   .links {
     display: none;
+  }
+
+  .padLeft {
+    padding-left: 0;
+  }
+
+  .padRight {
+    padding-right: 0;
   }
 }

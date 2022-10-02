@@ -13,10 +13,10 @@ function Navbar() {
           justifyContent: 'space-between',
         }}
       >
-        <div className='align-center' style={{ paddingLeft: '1.5rem' }}>
+        <div className='align-center padLeft'>
           <img src={logoBlack} alt='logo' />
         </div>
-        <div className='align-center' style={{ paddingRight: '1.5rem' }}>
+        <div className='align-center padRight'>
           <ul className='align-center links'>
             <li>
               <a href='https://www.google.com'>Home</a>
@@ -31,10 +31,7 @@ function Navbar() {
               <a href='https://www.google.com'>Contact</a>
             </li>
           </ul>
-          <button
-            className='align-center nav-toggle'
-            style={{ paddingRight: '1.5rem' }}
-          >
+          <button className='align-center nav-toggle'>
             <FaBars />
           </button>
         </div>
