@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import './navbar.css';
 import logoBlack from '../../assets/LogoBlack.svg';
 import { FaBars } from 'react-icons/fa';
@@ -5,6 +6,7 @@ import NavbarMobile from '../NavbarMobile/navbarMobile';
 import { links } from './data';
 
 function Navbar() {
+  const [showLinks, setShowLinks] = useState(false);
   return (
     <nav>
       <div
@@ -29,12 +31,15 @@ function Navbar() {
               );
             })}
           </ul>
-          <button className='align-center nav-toggle'>
+          <button
+            className='align-center nav-toggle'
+            onClick={() => setShowLinks(!showLinks)}
+          >
             <FaBars />
           </button>
         </div>
       </div>
-      <NavbarMobile />
+      {showLinks && <NavbarMobile />}
     </nav>
   );
 }
