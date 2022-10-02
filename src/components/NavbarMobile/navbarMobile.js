@@ -3,8 +3,8 @@ import { links } from '../Navbar/data';
 
 function NavbarMobile() {
   return (
-    <div className='main-style nav-mobile'>
-      <ul>
+    <div className='nav-mobile'>
+      <ul className='main-style'>
         {links.map((link) => {
           const { id, url, text } = link;
           return (
