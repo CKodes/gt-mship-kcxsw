@@ -9,3 +9,7 @@ html {
   max-width: 1170px;
   margin: 0 auto;
 }
+
+li {
+  text-transform: capitalize;
+}
