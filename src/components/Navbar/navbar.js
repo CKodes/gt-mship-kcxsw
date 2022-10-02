@@ -1,6 +1,7 @@
 import './navbar.css';
 import logoBlack from '../../assets/LogoBlack.svg';
 import { FaBars } from 'react-icons/fa';
+import NavbarMobile from '../NavbarMobile/navbarMobile';
 
 function Navbar() {
   return (
@@ -36,6 +37,7 @@ function Navbar() {
           </button>
         </div>
       </div>
+      <NavbarMobile />
     </nav>
   );
 }
